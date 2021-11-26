@@ -1,0 +1,29 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package loginpage;
+import java.awt.*;
+import java.applet.*;
+import javax.swing.*;
+/**
+ *
+ * @author 91732
+ */
+public class LoginPage {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+        //Here set Login.java as a Main File for Login
+        Login log=new Login();
+        log.show();
+        log.setLocation(500, 400);
+        log.setBackground(Color.yellow);
+        log.setForeground(Color.red);
+       
+    }
+    
+}
